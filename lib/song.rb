@@ -17,6 +17,6 @@ class Song
   end
 
   def self.create
-    self.initialize
+    initialize
   end
 end
