@@ -17,5 +17,5 @@ class Song
   def create(song)
     initialize
     @@all << song
-
+  end
 end
