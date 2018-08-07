@@ -40,4 +40,7 @@ class Song
     create_by_name(name)
     find_by_name(name)
   end
+
+  def self.alphabetical
+    self.sort_by!{|s| s.name.downcase}
 end
