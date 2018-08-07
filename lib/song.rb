@@ -58,4 +58,5 @@ class Song
     song.name = filename.split(" - ").last.chomp(".mp3")
     song.save
     song
+  end
 end
