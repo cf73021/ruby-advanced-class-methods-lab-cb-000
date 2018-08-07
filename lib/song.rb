@@ -4,6 +4,8 @@ class Song
 
   def initialize
     @song = song
+    @name = name
+    @artist_name = artist_name
   end
 
   def self.all
