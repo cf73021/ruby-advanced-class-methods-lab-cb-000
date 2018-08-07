@@ -17,7 +17,6 @@ class Song
   end
 
   def create
-    Song.initialize
-    return song
+    @@all
   end
 end
